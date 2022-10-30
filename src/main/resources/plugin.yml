@@ -1,0 +1,10 @@
+name: BitmapBuilder
+version: '${project.version}'
+main: de.jml.bitmapbuilder.BitmapBuilder
+api-version: 1.18
+authors: [ jml04 ]
+commands:
+  bitmapbuilder:
+    description: converts a Bitmap (.bmp format) into minecraft blocks
+    aliases:
+      - bb
